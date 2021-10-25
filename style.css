@@ -1,0 +1,79 @@
+
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgb(0, 0, 0);
+}
+ div h1{
+
+	text-align: center;
+	margin-top: 20px ;
+	color: white;
+	font-family: sans-serif;	
+}
+
+body{
+	font-family: sans-serif;
+	/* display:flex; */
+	/* width: 100vw;
+	height: 100vh; */
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+.main{
+	margin-top: 70px;
+	font-family: sans-serif;
+	display:flex;
+	align-items: center;
+	width: 100vw;
+	/* height: 100vh; */
+	justify-content: center;
+}
+.container{
+	background: #1b1b1b;
+	width:500px;
+	/* min-width: 300px; */
+	border-radius: 10px;
+	box-shadow: 8px 0px 8px rgb(179, 177, 177);
+	padding: 40px 0;
+}
+
+.displayTimer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border:1px solid rgb(190, 181, 181) ;
+	padding: 20px ;
+	color:#fff;
+	font-size: 30px;
+	border-radius: 22px;
+}
+
+.all-buttons{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	border-radius: 13px;
+	/* background-color:blue ; */
+}
+
+.all-buttons button{
+	padding: 7px 12px;
+	font-size: 16px;
+	border-radius: 5px;
+	background: #0479ffcb;
+	color: #000;
+	width: 160px;
+	height: 50px;
+	margin: 10px;
+	cursor: pointer;
+	outline: none;
+	transition: .2s all;
+	border: 1px solid #000000;
+}
+
+.all-buttons button:hover{
+	background: #171717;
+	color: #ffffff;
+}
